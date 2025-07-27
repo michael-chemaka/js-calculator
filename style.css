@@ -27,7 +27,9 @@
 }
 
 
-
+input:focus {
+    outline: none;
+}
 .screen {
     width: 100%;
     padding: 16px;
@@ -37,6 +39,9 @@
     box-shadow: 3px 3px 12px #b0b0b0;
 }
 
+input:focus {
+    outline: none;
+}
 .input-screen, .output-screen {
     width: 100%;
     border: nonE;
